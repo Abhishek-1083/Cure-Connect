@@ -30,6 +30,12 @@ const doctorsData = [
         <img src="${doctor.image}" alt="${doctor.name}">
         <h3>${doctor.name}</h3>
         <p>Specialty: ${doctor.specialty}</p>
+        <br>
+        <a href="https://maps.app.goo.gl/4qndhhYPwSJwBWNL9">Locate</a>
+        <br>
+        <br>
+        <p>Contact No. - 12345-78900</p>
+        <br>
         <button class="btn-primary" onclick="openModal()">Book Appointment</button>
       `;
   
